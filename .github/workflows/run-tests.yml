@@ -20,7 +20,7 @@ on:
       - reopened
       - synchronize
       - labeled
-  
+
     paths-ignore:
         - '**.md'
 
