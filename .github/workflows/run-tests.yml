@@ -20,11 +20,7 @@ on:
       - reopened
       - synchronize
       - labeled
-  push:
-    branches-ignore:
-      - github-action-**
-      - DAT-**
-      - dependabot-**
+  
     paths-ignore:
         - '**.md'
 
