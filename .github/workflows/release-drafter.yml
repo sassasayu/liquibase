@@ -9,6 +9,7 @@ on:
 permissions:
   contents: read
 
+
 jobs:
   create_draft_release_release_branch:
     permissions:
