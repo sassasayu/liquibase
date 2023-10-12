@@ -20,6 +20,14 @@ jobs:
       pull-requests: write
     runs-on: ubuntu-latest
     steps:
+      - name: Throttle Requests (Release)
+        if: github.ref == 'refs/heads/release'
+        uses: actions/github-script@v5
+        with:
+          script: |
+            console.log('Delaying for 30 seconds...');
+            await new Promise(resolve => setTimeout(resolve, 30000)); // Add a 30-second delay
+
       - name: Create Draft Release (Release)
         if: github.ref == 'refs/heads/release'
 
@@ -39,6 +47,15 @@ jobs:
       pull-requests: write
     runs-on: ubuntu-latest
     steps:
+      - name: Throttle Requests (Master)
+        if: github.ref == 'refs/heads/master'
+        uses: actions/github-script@v5
+        with:
+          script: |
+            console.log('Delaying for 30 seconds...');
+            await new Promise(resolve => setTimeout(resolve, 30000)); // Add a 30-second delay
+
+
       - name: Create Draft Release (Master)
         if: github.ref == 'refs/heads/master'
 
