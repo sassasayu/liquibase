@@ -5,12 +5,8 @@ on:
   push:
     branches:
       - release
-
 permissions:
   contents: read
-
-
-
 jobs:
   update_release_draft:
     permissions:
