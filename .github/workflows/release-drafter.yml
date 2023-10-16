@@ -25,7 +25,7 @@ jobs:
         uses: actions/github-script@v6
         with:
           script: |
-            console.log('Delaying for 30 seconds...');
+            console.log('Delaying for 15 seconds...');
             await new Promise(resolve => setTimeout(resolve, 15000)); // Add a 15-second delay
 
       - name: Create Draft Release (Release)
@@ -47,13 +47,13 @@ jobs:
       pull-requests: write
     runs-on: ubuntu-latest
     steps:
-      - name: Throttle Requests (Master)
-        if: github.ref == 'refs/heads/master'
-        uses: actions/github-script@v6
-        with:
-          script: |
-            console.log('Delaying for 30 seconds...');
-            await new Promise(resolve => setTimeout(resolve, 30000)); // Add a 30-second delay
+      # - name: Throttle Requests (Master)
+      #   if: github.ref == 'refs/heads/master'
+      #   uses: actions/github-script@v6
+      #   with:
+      #     script: |
+      #       console.log('Delaying for 30 seconds...');
+      #       await new Promise(resolve => setTimeout(resolve, 30000)); // Add a 30-second delay
 
 
       - name: Create Draft Release (Master)
