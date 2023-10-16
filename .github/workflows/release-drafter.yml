@@ -6,9 +6,9 @@ on:
     branches:
       - master
       - release
+      -
 permissions:
   contents: read
-
 
 jobs:
   create_draft_release_release_branch:
@@ -22,7 +22,7 @@ jobs:
     steps:
       - name: Throttle Requests (Release)
         if: github.ref == 'refs/heads/release'
-        uses: actions/github-script@v5
+        uses: actions/github-script@v6
         with:
           script: |
             console.log('Delaying for 30 seconds...');
@@ -49,7 +49,7 @@ jobs:
     steps:
       - name: Throttle Requests (Master)
         if: github.ref == 'refs/heads/master'
-        uses: actions/github-script@v5
+        uses: actions/github-script@v6
         with:
           script: |
             console.log('Delaying for 30 seconds...');
