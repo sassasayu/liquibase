@@ -26,7 +26,7 @@ jobs:
         with:
           script: |
             console.log('Delaying for 30 seconds...');
-            await new Promise(resolve => setTimeout(resolve, 30000)); // Add a 30-second delay
+            await new Promise(resolve => setTimeout(resolve, 15000)); // Add a 15-second delay
 
       - name: Create Draft Release (Release)
         if: github.ref == 'refs/heads/release'
