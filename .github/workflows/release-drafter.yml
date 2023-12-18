@@ -9,6 +9,23 @@ on:
 permissions:
   contents: read
 
+jobs:
+  create_draft_release_release_branch:
+    permissions:
+      # write permission is required to create a github release
+      contents: write
+      # write permission is required for autolabeler
+      # otherwise, read permission is required at least
+      pull-requests: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Throttle Requests (Release)
+        if: github.ref == 'refs/heads/release'
+        uses: actions/github-script@v6
+        with:
+          script: |
+            console.log('Delaying for 10 seconds...');
+            await new Promise(resolve => setTimeout(resolve, 10000)); 
 
 jobs:
   create_draft_release_release_branch:
@@ -37,6 +54,7 @@ jobs:
           config-name: release-drafter-release.yml # located in .github/ in default branch
         env:
           GITHUB_TOKEN: ${{ secrets.RELEASEDRAFTERTOKEN }}
+
 
   create_draft_release_master:
     permissions:

@@ -1,6 +1,6 @@
 
-name-template: 'Play $NEXT_PATCH_VERSION'
-tag-template: '$NEXT_PATCH_VERSION'
+name-template: 'Liquibase v$NEXT_PATCH_VERSION'
+tag-template: 'v$NEXT_PATCH_VERSION'
 filter-by-commitish: true
 commitish: release
 exclude-labels:
