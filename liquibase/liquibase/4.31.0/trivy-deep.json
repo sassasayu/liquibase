@@ -3,8 +3,8 @@
   "Trivy": {
     "Version": "0.69.3"
   },
-  "ReportID": "019f1daf-abab-7c8f-9d73-d27425f8b9c6",
-  "CreatedAt": "2026-07-01T12:37:59.851824127Z",
+  "ReportID": "019f22be-387c-7430-a138-a5ca519be2ce",
+  "CreatedAt": "2026-07-02T12:11:59.484275904Z",
   "ArtifactName": "/tmp/extracted-deps",
   "ArtifactType": "filesystem",
   "Results": [
@@ -2853,7 +2853,7 @@
             "https://www.cve.org/CVERecord?id=CVE-2026-21441"
           ],
           "PublishedDate": "2026-01-07T22:15:44.04Z",
-          "LastModifiedDate": "2026-06-30T03:17:23.333Z"
+          "LastModifiedDate": "2026-07-01T13:16:47.98Z"
         },
         {
           "VulnerabilityID": "CVE-2026-21441",
@@ -3047,7 +3047,7 @@
             "https://www.cve.org/CVERecord?id=CVE-2026-21441"
           ],
           "PublishedDate": "2026-01-07T22:15:44.04Z",
-          "LastModifiedDate": "2026-06-30T03:17:23.333Z"
+          "LastModifiedDate": "2026-07-01T13:16:47.98Z"
         },
         {
           "VulnerabilityID": "CVE-2026-21441",
@@ -3241,7 +3241,7 @@
             "https://www.cve.org/CVERecord?id=CVE-2026-21441"
           ],
           "PublishedDate": "2026-01-07T22:15:44.04Z",
-          "LastModifiedDate": "2026-06-30T03:17:23.333Z"
+          "LastModifiedDate": "2026-07-01T13:16:47.98Z"
         },
         {
           "VulnerabilityID": "CVE-2026-44431",
