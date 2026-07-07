@@ -3,8 +3,8 @@
   "Trivy": {
     "Version": "0.69.3"
   },
-  "ReportID": "019f37b1-cae9-7086-811f-67a034b23cf6",
-  "CreatedAt": "2026-07-06T13:50:26.537039842Z",
+  "ReportID": "019f3c8e-2f84-76c8-9003-180e8411f1da",
+  "CreatedAt": "2026-07-07T12:29:39.076445766Z",
   "ArtifactID": "sha256:ab06f77e82c54ce2f2a004f579c5c6b6c1689d650816b8124569f23747ebbd32",
   "ArtifactName": "liquibase/liquibase:5.0.3",
   "ArtifactType": "container_image",
@@ -10676,6 +10676,7 @@
             "https://access.redhat.com/errata/RHSA-2026:26319",
             "https://access.redhat.com/errata/RHSA-2026:29197",
             "https://access.redhat.com/errata/RHSA-2026:34102",
+            "https://access.redhat.com/errata/RHSA-2026:35869",
             "https://access.redhat.com/security/cve/CVE-2026-45447",
             "https://bugzilla.redhat.com/2283757",
             "https://bugzilla.redhat.com/2481898",
@@ -10726,7 +10727,7 @@
             "https://www.cve.org/CVERecord?id=CVE-2026-45447"
           ],
           "PublishedDate": "2026-06-09T17:17:19.277Z",
-          "LastModifiedDate": "2026-07-01T13:17:32.217Z"
+          "LastModifiedDate": "2026-07-06T13:16:59.4Z"
         },
         {
           "VulnerabilityID": "CVE-2026-45447",
@@ -10781,6 +10782,7 @@
             "https://access.redhat.com/errata/RHSA-2026:26319",
             "https://access.redhat.com/errata/RHSA-2026:29197",
             "https://access.redhat.com/errata/RHSA-2026:34102",
+            "https://access.redhat.com/errata/RHSA-2026:35869",
             "https://access.redhat.com/security/cve/CVE-2026-45447",
             "https://bugzilla.redhat.com/2283757",
             "https://bugzilla.redhat.com/2481898",
@@ -10831,7 +10833,7 @@
             "https://www.cve.org/CVERecord?id=CVE-2026-45447"
           ],
           "PublishedDate": "2026-06-09T17:17:19.277Z",
-          "LastModifiedDate": "2026-07-01T13:17:32.217Z"
+          "LastModifiedDate": "2026-07-06T13:16:59.4Z"
         }
       ]
     },
@@ -11095,6 +11097,7 @@
             "https://access.redhat.com/errata/RHSA-2026:33574",
             "https://access.redhat.com/errata/RHSA-2026:34357",
             "https://access.redhat.com/errata/RHSA-2026:34359",
+            "https://access.redhat.com/errata/RHSA-2026:35832",
             "https://access.redhat.com/security/cve/CVE-2026-27145",
             "https://bugzilla.redhat.com/show_bug.cgi?id=2484207",
             "https://go.dev/cl/783621",
@@ -11106,7 +11109,7 @@
             "https://www.cve.org/CVERecord?id=CVE-2026-27145"
           ],
           "PublishedDate": "2026-06-02T23:16:35.57Z",
-          "LastModifiedDate": "2026-07-02T12:16:59.51Z"
+          "LastModifiedDate": "2026-07-06T13:16:35.233Z"
         },
         {
           "VulnerabilityID": "CVE-2026-42504",
