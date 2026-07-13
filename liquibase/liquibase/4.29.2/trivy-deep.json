@@ -3,8 +3,8 @@
   "Trivy": {
     "Version": "0.69.3"
   },
-  "ReportID": "019f4bff-cb93-771c-be3d-846a5d0a775c",
-  "CreatedAt": "2026-07-10T12:28:02.835466936Z",
+  "ReportID": "019f5b7a-0c2a-7373-ba60-bab22afd5b8e",
+  "CreatedAt": "2026-07-13T12:35:53.00222722Z",
   "ArtifactName": "/tmp/extracted-deps",
   "ArtifactType": "filesystem",
   "Results": [
@@ -580,7 +580,7 @@
             "https://www.cve.org/CVERecord?id=CVE-2026-42198"
           ],
           "PublishedDate": "2026-04-29T16:16:25.427Z",
-          "LastModifiedDate": "2026-06-30T03:19:34.747Z"
+          "LastModifiedDate": "2026-07-10T12:16:51.853Z"
         }
       ]
     }
